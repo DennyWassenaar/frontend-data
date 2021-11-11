@@ -1,5 +1,5 @@
-const width = 800;
-const height = 600;
+const width = 1500;
+const height = 900;
 
 // Creates sources <svg> element
 const svg = d3.select('body').append('svg')
