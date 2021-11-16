@@ -16,7 +16,7 @@ function update() {
 			function(enter) {
 				return enter
 					.append('circle')
-					.attr('cy', 50)
+					.attr('cy', 70)
 					.attr('cx', function(d) {
 						return d;
 					})

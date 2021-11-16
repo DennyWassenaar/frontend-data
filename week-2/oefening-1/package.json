@@ -1,0 +1,14 @@
+{
+  "name": "@d3/contours",
+  "main": "9d7cc1d26bcca7c7@267.js",
+  "version": "267.0.0",
+  "homepage": "https://observablehq.com/@d3/contours",
+  "author": {
+    "name": "D3",
+    "url": "https://observablehq.com/@d3"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
