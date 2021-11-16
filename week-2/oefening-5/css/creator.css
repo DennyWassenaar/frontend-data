@@ -1,0 +1,87 @@
+/*  CSS for movie_creator.html ------ */
+
+/* Circle for circlepack */
+
+    circle {
+        stroke: white;
+        fill: "light-gray"; 
+        opacity: 0.3;
+        stroke-width: 1px;
+    }
+
+/* div for circle pack*/
+    #circlepck {
+        width: 35%;
+        height: 50%;
+        float: left;
+    }
+   
+/* div for line plot */
+
+    #barplot {
+        width: 65%;
+        height: 50%;
+        float: right;
+    }
+    
+    #gross {
+        width: 50%;
+        height: 25%;
+        float: left;
+    }
+    #budget {
+        width: 50%;
+        height: 25%;
+        float: right;
+    }
+    
+    #imdb {
+        width: 50%;
+        height: 25%;
+        float: left;
+    }
+    #review {
+        width: 50%;
+        height: 25%;
+        float: right;
+    }
+    
+    
+    path { 
+/*    stroke: steelblue;*/
+        stroke-width: 2;
+        fill: none;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: grey;
+        stroke-width: 1;
+        shape-rendering: crispEdges;
+    }
+    
+    .sc_x line{
+        stroke:black;
+    }
+    
+    .blinking{
+        animation:blinkingText 0.8s infinite;
+    }
+    @keyframes blinkingText{
+        0%{     color: #000;    }
+        49%{    color: transparent; }
+        50%{    color: transparent; }
+        99%{    color:transparent;  }
+        100%{   color: #000;    }
+    }
+    
+/*  footer    */
+   footer {
+      background-color: dimgray;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      font-size: 15px;
+      position: sticky;
+    }

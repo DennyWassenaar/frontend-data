@@ -1,0 +1,18 @@
+ div.tooltip {
+        position: absolute;	
+        text-align: left;	
+        font-weight: bold;
+        width: 170px;	
+        height: 88px;			
+        font: 12px sans-serif;	
+        background: gray;	
+        border: 0px;					
+        border-radius: 5px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        text-align: left;
+        /*  pointer-events: none;	This line needs to be removed */
+
+    }

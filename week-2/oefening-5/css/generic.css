@@ -1,0 +1,149 @@
+/* CSS for generic.html -----  */
+
+/* countries class for map */
+ .countries {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+  }
+
+/* legend class */
+  .legendThreshold {
+      font-size: 12px;
+      font-family: sans-serif;
+  }
+  .caption {
+      fill: #000;
+      text-anchor: start;
+      font-weight: bold;
+  }
+
+/* tooltip */
+   div.tooltip {
+        position: absolute;	
+        text-align: left;	
+        font-weight: bold;
+        width: 170px;	
+        height: 88px;			
+        font: 12px sans-serif;	
+        background: gray;	
+        border: 0px;					
+        border-radius: 5px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        text-align: left;
+        /*  pointer-events: none;	This line needs to be removed */
+
+    }
+   
+/* div for creator */
+    .creator{
+        padding-left:300px;
+    }
+    .inner_div1{
+        width:46%;
+        border-radius:20px;
+        float:left;
+        margin-left: 30px;
+        align-items: center;
+    }
+    .inner_div2{
+        width: 46%;
+        border-radius:20px;
+        float:right;
+        margin-left: 30px;
+        align-items: center;
+    }
+
+    #map{
+        width: 50%;
+        float: left
+    }
+    #wordcloud{
+        width: 50%;
+        float: right
+    }
+
+    #stackchart{
+        width: 50%;
+        float: left
+    }
+    #barplot{
+        width: 50%;
+        float: right
+    }
+
+      /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+    
+ .inner_div1 img:hover {
+      /* Start the shake animation and make the animation last for 0.5 seconds */
+      animation: shake 0.5s;
+
+      /* When the animation is finished, start again */
+      animation-iteration-count: infinite;
+  }
+  
+  .inner_div2 img:hover {
+      /* Start the shake animation and make the animation last for 0.5 seconds */
+      animation: shake 0.5s;
+
+      /* When the animation is finished, start again */
+      animation-iteration-count: infinite;
+  }
+
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+    
+  path { 
+/*    stroke: steelblue;*/
+    stroke-width: 2;
+/*    fill: none;*/
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: grey;
+        stroke-width: 1;
+        shape-rendering: crispEdges;
+    }
+    
+    /* Style the footer */
+    footer {
+      background-color: dimgray;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      font-size: 15px;
+      position: sticky;
+    }

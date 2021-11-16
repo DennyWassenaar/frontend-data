@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <title>Movie Viewer</title>
+    <!-- JS for D3, scale-chromatic, color, legend, google api fonts, bootstrap -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>
+    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<!-- CSS for w3.css (bootstrap plugin), this file, gauntlet -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/viewer.css">
+<link rel="stylesheet" href="css/style.css"> <!-- gauntlet css-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+<body>
+    <!-- headeer with title and gauntlet -->
+    <header style="background-color: black">
+        <div class="logo">
+            <a href="#" target="_blank" style="padding-top: 20px;">
+            <span>M</span><span>o</span><span>v</span><span>i</span><span>e</span> Viewer</a>
+            <img style = "padding-bottom: 20px;" id="gauntlet" src="img/1.png" align=center onclick="trick()">
+            <p style="color: white">(Go Back Using Gauntlet) >> </p>
+        </div>
+    </header>
+
+    <!-- container div -->
+    <div id="container">
+        
+        <!-- genre trend  circle packed diagram -->
+        <div id="genre_trend" style="margin-left: 30px; margin-top: 20px;">
+
+            <section id="b1" class="box">
+            <h2 style="margin-left: 20px;">Movie Recommendations For You</h2>
+
+            <div class="card bg-light text-dark" style="width:90%; margin-left: 20px;">
+                <div class="card-body" style="width:90%"><p>Pick up the genre of your taste or based on your mood and get recommendations for the best movies of that genre based on their IMDB ratings. Just click on any genre bubble and see the best movies tailored based on your selection.</p></div>
+            </div>
+            </section>
+            <br>
+            <!-- SVG for circlepack -->
+            <div id="circlepck" style="width:30%;">
+                <svg>
+                    <g></g>
+                </svg>
+            </div>
+            
+            <!-- Movies word cloud  -->
+            <div id="wordcloud" style="width:46%">
+                    <svg width="670" height="400"><text x=130 y=200 font-size=25 fill="crimson", font-weight="bold"> Click on the Genre bubble their</text><text x=180 y=220 font-size=25 fill="darkorange" >to see genre preference</text></svg>
+            </div>
+        </div>
+
+        <div class="card bg-light text-dark" style="margin-top:400px; margin-left: 40px; margin-right: 100px;">
+            <div class="card-body" style="width:95%"><p>After selecting the genre you can see the top 20 movies based on that genre. In the wordcloud you might not see much font size difference as their IMDB score does not vary much.</p></div>
+        </div>
+
+    </div> <br>
+    
+    <!-- Footer -->
+    <footer>
+        <p style="color: white;"><b style="color: white;">Created By:</b> Himanshu Sharma (ID: 29857082)</p>
+    </footer>
+
+</body>
+
+<!-- JS for this file, gauntlet, wordcloud, jquery -->
+<script src="js/viewer.js"></script> 
+<script src="js/jquery.js"></script>
+<script src="js/Gauntlet.js"></script>
+<script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
+

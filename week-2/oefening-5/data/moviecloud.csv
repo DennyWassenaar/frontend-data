@@ -1,0 +1,422 @@
+genre,movie_title,imdb_score
+Drama,The Shawshank Redemption ,9.3
+Drama,The Dark Knight ,9
+Drama,Schindler's List ,8.9
+Drama,The Lord of the Rings: The Return of the King ,8.9
+Drama,Pulp Fiction ,8.9
+Drama,The Lord of the Rings: The Fellowship of the Ring ,8.8
+Drama,Fight Club ,8.8
+Drama,Forrest Gump ,8.8
+Drama,Goodfellas ,8.7
+Drama,The Lord of the Rings: The Two Towers ,8.7
+Drama,City of God ,8.7
+Drama,Saving Private Ryan ,8.6
+Drama,The Silence of the Lambs ,8.6
+Drama,The Usual Suspects ,8.6
+Drama,Interstellar ,8.6
+Drama,Se7en ,8.6
+Drama,American History X ,8.6
+Drama,Children of Heaven ,8.5
+Drama,Django Unchained ,8.5
+Drama,The Prestige ,8.5
+Mystery,The Usual Suspects ,8.6
+Mystery,Se7en ,8.6
+Mystery,The Green Mile ,8.5
+Mystery,The Prestige ,8.5
+Mystery,Memento ,8.5
+Mystery,A Separation ,8.4
+Mystery,Oldboy ,8.4
+Mystery,L.A. Confidential ,8.3
+Mystery,The Secret in Their Eyes ,8.2
+Mystery,The Thing ,8.2
+Mystery,Incendies ,8.2
+Mystery,Gone Girl ,8.1
+Mystery,The Bourne Ultimatum ,8.1
+Mystery,Prisoners ,8.1
+Mystery,Shutter Island ,8.1
+Mystery,The Sixth Sense ,8.1
+Mystery,Mulholland Drive ,8
+Mystery,Mystic River ,8
+Mystery,The Hateful Eight ,7.9
+Mystery,The Bourne Identity ,7.9
+Thriller,The Dark Knight ,9
+Thriller,Inception ,8.8
+Thriller,The Usual Suspects ,8.6
+Thriller,The Silence of the Lambs ,8.6
+Thriller,Se7en ,8.6
+Thriller,The Lives of Others ,8.5
+Thriller,Memento ,8.5
+Thriller,The Prestige ,8.5
+Thriller,The Departed ,8.5
+Thriller,The Dark Knight Rises ,8.5
+Thriller,Reservoir Dogs ,8.4
+Thriller,Oldboy ,8.4
+Thriller,L.A. Confidential ,8.3
+Thriller,Blade Runner ,8.2
+Thriller,Die Hard ,8.2
+Thriller,V for Vendetta ,8.2
+Thriller,The Secret in Their Eyes ,8.2
+Thriller,Sin City ,8.1
+Thriller,Elite Squad ,8.1
+Thriller,Amores Perros ,8.1
+Crime,The Shawshank Redemption ,9.3
+Crime,The Dark Knight ,9
+Crime,Pulp Fiction ,8.9
+Crime,City of God ,8.7
+Crime,Goodfellas ,8.7
+Crime,The Usual Suspects ,8.6
+Crime,American History X ,8.6
+Crime,Se7en ,8.6
+Crime,The Silence of the Lambs ,8.6
+Crime,The Departed ,8.5
+Crime,The Green Mile ,8.5
+Crime,Reservoir Dogs ,8.4
+Crime,Once Upon a Time in America ,8.4
+Crime,Scarface ,8.3
+Crime,Snatch ,8.3
+Crime,L.A. Confidential ,8.3
+Crime,The Wolf of Wall Street ,8.2
+Crime,Casino ,8.2
+Crime,"Lock, Stock and Two Smoking Barrels ",8.2
+Crime,The Big Lebowski ,8.2
+Action,The Dark Knight ,9
+Action,The Lord of the Rings: The Return of the King ,8.9
+Action,The Lord of the Rings: The Fellowship of the Ring ,8.8
+Action,Inception ,8.8
+Action,The Matrix ,8.7
+Action,The Lord of the Rings: The Two Towers ,8.7
+Action,Saving Private Ryan ,8.6
+Action,Raiders of the Lost Ark ,8.5
+Action,The Dark Knight Rises ,8.5
+Action,Gladiator ,8.5
+Action,Terminator 2: Judgment Day ,8.5
+Action,Star Wars: Episode VI - Return of the Jedi ,8.4
+Action,Baahubali: The Beginning ,8.4
+Action,Aliens ,8.4
+Action,Batman Begins ,8.3
+Action,Indiana Jones and the Last Crusade ,8.3
+Action,Die Hard ,8.2
+Action,V for Vendetta ,8.2
+Action,Captain America: Civil War ,8.2
+Action,Kill Bill: Vol. 1 ,8.1
+Comedy,Forrest Gump ,8.8
+Comedy,Back to the Future ,8.5
+Comedy,AmÃ©lie ,8.4
+Comedy,Inside Out ,8.3
+Comedy,Toy Story 3 ,8.3
+Comedy,Up ,8.3
+Comedy,Snatch ,8.3
+Comedy,Toy Story ,8.3
+Comedy,The Big Lebowski ,8.2
+Comedy,Finding Nemo ,8.2
+Comedy,The Wolf of Wall Street ,8.2
+Comedy,"Lock, Stock and Two Smoking Barrels ",8.2
+Comedy,"Monsters, Inc. ",8.1
+Comedy,Groundhog Day ,8.1
+Comedy,Deadpool ,8.1
+Comedy,The Grand Budapest Hotel ,8.1
+Comedy,The Truman Show ,8.1
+Comedy,The Iron Giant ,8
+Comedy,Aladdin ,8
+Comedy,Ratatouille ,8
+Romance,Gladiator ,8.5
+Romance,AmÃ©lie ,8.4
+Romance,Eternal Sunshine of the Spotless Mind ,8.3
+Romance,The Sea Inside ,8.1
+Romance,Groundhog Day ,8.1
+Romance,Before Sunrise ,8.1
+Romance,Deadpool ,8.1
+Romance,The Princess Bride ,8.1
+Romance,Slumdog Millionaire ,8
+Romance,The Perks of Being a Wallflower ,8
+Romance,True Romance ,8
+Romance,Before Sunset ,8
+Romance,Her ,8
+Romance,The Artist ,8
+Romance,The King's Speech ,8
+Romance,Aladdin ,8
+Romance,Amour ,7.9
+Romance,Before Midnight ,7.9
+Romance,Edward Scissorhands ,7.9
+Romance,Walk the Line ,7.9
+Animation,Spirited Away ,8.6
+Animation,The Lion King ,8.5
+Animation,WALL·E ,8.4
+Animation,Princess Mononoke ,8.4
+Animation,Inside Out ,8.3
+Animation,Up ,8.3
+Animation,Toy Story 3 ,8.3
+Animation,Toy Story ,8.3
+Animation,Howl's Moving Castle ,8.2
+Animation,How to Train Your Dragon ,8.2
+Animation,Finding Nemo ,8.2
+Animation,"Monsters, Inc. ",8.1
+Animation,Akira ,8.1
+Animation,The Iron Giant ,8
+Animation,The Incredibles ,8
+Animation,Aladdin ,8
+Animation,Ratatouille ,8
+Animation,Waltz with Bashir ,8
+Animation,Persepolis ,8
+Animation,Toy Story 2 ,7.9
+Family,Spirited Away ,8.6
+Family,The Lion King ,8.5
+Family,Children of Heaven ,8.5
+Family,WALL·E ,8.4
+Family,Inside Out ,8.3
+Family,Toy Story ,8.3
+Family,Up ,8.3
+Family,Toy Story 3 ,8.3
+Family,How to Train Your Dragon ,8.2
+Family,Howl's Moving Castle ,8.2
+Family,Finding Nemo ,8.2
+Family,The Princess Bride ,8.1
+Family,"Monsters, Inc. ",8.1
+Family,Ratatouille ,8
+Family,The Incredibles ,8
+Family,Aladdin ,8
+Family,The Iron Giant ,8
+Family,Ernest & Celestine ,7.9
+Family,Toy Story 2 ,7.9
+Family,Big Hero 6 ,7.9
+Musical,The Lion King ,8.5
+Musical,Dancer in the Dark ,8
+Musical,Aladdin ,8
+Musical,Veer-Zaara ,7.9
+Musical,Tangled ,7.8
+Musical,South Park: Bigger Longer & Uncut ,7.8
+Musical,Hedwig and the Angry Inch ,7.8
+Musical,The Muppet Christmas Carol ,7.7
+Musical,Les MisÃ©rables ,7.6
+Musical,Moulin Rouge! ,7.6
+Musical,Frozen ,7.6
+Musical,Mulan ,7.5
+Musical,Across the Universe ,7.4
+Musical,The Phantom of the Opera ,7.4
+Musical,Corpse Bride ,7.4
+Musical,Topsy-Turvy ,7.4
+Musical,Across the Universe ,7.4
+Musical,Winnie the Pooh ,7.3
+Musical,Chicago ,7.2
+Musical,Tango ,7.2
+Adventure,The Lord of the Rings: The Return of the King ,8.9
+Adventure,The Lord of the Rings: The Fellowship of the Ring ,8.8
+Adventure,Inception ,8.8
+Adventure,The Lord of the Rings: The Two Towers ,8.7
+Adventure,Interstellar ,8.6
+Adventure,Spirited Away ,8.6
+Adventure,The Lion King ,8.5
+Adventure,Back to the Future ,8.5
+Adventure,Raiders of the Lost Ark ,8.5
+Adventure,Baahubali: The Beginning ,8.4
+Adventure,Star Wars: Episode VI - Return of the Jedi ,8.4
+Adventure,Princess Mononoke ,8.4
+Adventure,Aliens ,8.4
+Adventure,WALL·E ,8.4
+Adventure,Toy Story ,8.3
+Adventure,Indiana Jones and the Last Crusade ,8.3
+Adventure,Toy Story 3 ,8.3
+Adventure,Up ,8.3
+Adventure,Inglourious Basterds ,8.3
+Adventure,Inside Out ,8.3
+War,Saving Private Ryan ,8.6
+War,The Pianist ,8.5
+War,Braveheart ,8.4
+War,Baahubali: The Beginning ,8.4
+War,No End in Sight ,8.3
+War,Inglourious Basterds ,8.3
+War,Downfall ,8.3
+War,Incendies ,8.2
+War,Pan's Labyrinth ,8.2
+War,Platoon ,8.1
+War,Hotel Rwanda ,8.1
+War,The Imitation Game ,8.1
+War,Tae Guk Gi: The Brotherhood of War ,8.1
+War,Persepolis ,8
+War,Waltz with Bashir ,8
+War,Letters from Iwo Jima ,7.9
+War,Glory ,7.9
+War,Glory ,7.9
+War,The Last of the Mohicans ,7.8
+War,The Boy in the Striped Pajamas ,7.8
+Sci-Fi,Inception ,8.8
+Sci-Fi,The Matrix ,8.7
+Sci-Fi,Interstellar ,8.6
+Sci-Fi,Terminator 2: Judgment Day ,8.5
+Sci-Fi,Back to the Future ,8.5
+Sci-Fi,The Prestige ,8.5
+Sci-Fi,Star Wars: Episode VI - Return of the Jedi ,8.4
+Sci-Fi,WALL·E ,8.4
+Sci-Fi,Aliens ,8.4
+Sci-Fi,Eternal Sunshine of the Spotless Mind ,8.3
+Sci-Fi,Captain America: Civil War ,8.2
+Sci-Fi,The Thing ,8.2
+Sci-Fi,Blade Runner ,8.2
+Sci-Fi,Mad Max: Fury Road ,8.1
+Sci-Fi,The Truman Show ,8.1
+Sci-Fi,The Terminator ,8.1
+Sci-Fi,The Martian ,8.1
+Sci-Fi,Akira ,8.1
+Sci-Fi,Guardians of the Galaxy ,8.1
+Sci-Fi,Donnie Darko ,8.1
+Biography,Schindler's List ,8.9
+Biography,Goodfellas ,8.7
+Biography,The Pianist ,8.5
+Biography,Braveheart ,8.4
+Biography,Amadeus ,8.3
+Biography,Downfall ,8.3
+Biography,Into the Wild ,8.2
+Biography,Casino ,8.2
+Biography,The Act of Killing ,8.2
+Biography,A Beautiful Mind ,8.2
+Biography,The Wolf of Wall Street ,8.2
+Biography,The Imitation Game ,8.1
+Biography,12 Years a Slave ,8.1
+Biography,Spotlight ,8.1
+Biography,Rush ,8.1
+Biography,The Sea Inside ,8.1
+Biography,Cinderella Man ,8
+Biography,Waltz with Bashir ,8
+Biography,Persepolis ,8
+Biography,The Straight Story ,8
+Music,Samsara ,8.5
+Music,Whiplash ,8.5
+Music,Amadeus ,8.3
+Music,Straight Outta Compton ,7.9
+Music,The Chorus ,7.9
+Music,Walk the Line ,7.9
+Music,Once ,7.9
+Music,Almost Famous ,7.9
+Music,Hedwig and the Angry Inch ,7.8
+Music,Joyeux Noel ,7.8
+Music,"O Brother, Where Art Thou? ",7.8
+Music,Billy Elliot ,7.7
+Music,The Red Violin ,7.7
+Music,Ray ,7.7
+Music,Control ,7.7
+Music,Shine ,7.7
+Music,As It Is in Heaven ,7.6
+Music,High Fidelity ,7.6
+Music,The Piano ,7.6
+Music,Saving Mr. Banks ,7.5
+Western,Django Unchained ,8.5
+Western,Unforgiven ,8.3
+Western,The Revenant ,8.1
+Western,Dances with Wolves ,8
+Western,The Hateful Eight ,7.9
+Western,Tombstone ,7.8
+Western,3:10 to Yuma ,7.8
+Western,True Grit ,7.7
+Western,Open Range ,7.5
+Western,Three Burials ,7.5
+Western,The Assassination of Jesse James by the Coward Robert Ford ,7.5
+Western,Legends of the Fall ,7.5
+Western,The Proposition ,7.4
+Western,Back to the Future Part III ,7.4
+Western,Pale Rider ,7.3
+Western,"The Good, the Bad, the Weird ",7.3
+Western,Rango ,7.2
+Western,Silverado ,7.2
+Western,Love's Abiding Joy ,7.2
+Western,Spirit: Stallion of the Cimarron ,7
+Sport,The Other Dream Team ,8.4
+Sport,Hoop Dreams ,8.3
+Sport,Warrior ,8.2
+Sport,Rush ,8.1
+Sport,Million Dollar Baby ,8.1
+Sport,Cinderella Man ,8
+Sport,The World's Fastest Indian ,7.9
+Sport,The Wrestler ,7.9
+Sport,The Fighter ,7.9
+Sport,Remember the Titans ,7.8
+Sport,Murderball ,7.8
+Sport,The Blind Side ,7.7
+Sport,Creed ,7.7
+Sport,The Damned United ,7.6
+Sport,The Hurricane ,7.6
+Sport,Moneyball ,7.6
+Sport,Beyond the Mat ,7.6
+Sport,Saint Ralph ,7.6
+Sport,Southpaw ,7.5
+Sport,42 ,7.5
+Horror,The Silence of the Lambs ,8.6
+Horror,The Thing ,8.2
+Horror,Shaun of the Dead ,8
+Horror,Predator ,7.8
+Horror,The Conjuring 2 ,7.8
+Horror,Evil Dead II ,7.8
+Horror,Saw ,7.7
+Horror,Zombieland ,7.7
+Horror,Army of Darkness ,7.6
+Horror,Interview with the Vampire: The Vampire Chronicles ,7.6
+Horror,Grindhouse ,7.6
+Horror,28 Days Later... ,7.6
+Horror,The Others ,7.6
+Horror,Bram Stoker's Dracula ,7.5
+Horror,A Nightmare on Elm Street ,7.5
+Horror,A Nightmare on Elm Street ,7.5
+Horror,The Conjuring ,7.5
+Horror,Poltergeist ,7.4
+Horror,Dawn of the Dead ,7.4
+Horror,Poltergeist ,7.4
+Fantasy,The Lord of the Rings: The Return of the King ,8.9
+Fantasy,The Lord of the Rings: The Fellowship of the Ring ,8.8
+Fantasy,The Lord of the Rings: The Two Towers ,8.7
+Fantasy,Spirited Away ,8.6
+Fantasy,The Green Mile ,8.5
+Fantasy,Star Wars: Episode VI - Return of the Jedi ,8.4
+Fantasy,Princess Mononoke ,8.4
+Fantasy,Baahubali: The Beginning ,8.4
+Fantasy,Toy Story ,8.3
+Fantasy,Indiana Jones and the Last Crusade ,8.3
+Fantasy,Inside Out ,8.3
+Fantasy,Eternal Sunshine of the Spotless Mind ,8.3
+Fantasy,Toy Story 3 ,8.3
+Fantasy,Pan's Labyrinth ,8.2
+Fantasy,How to Train Your Dragon ,8.2
+Fantasy,Howl's Moving Castle ,8.2
+Fantasy,"Monsters, Inc. ",8.1
+Fantasy,The Princess Bride ,8.1
+Fantasy,Groundhog Day ,8.1
+Fantasy,Pirates of the Caribbean: The Curse of the Black Pearl ,8.1
+History,Schindler's List ,8.9
+History,Braveheart ,8.4
+History,Amadeus ,8.3
+History,Downfall ,8.3
+History,The Act of Killing ,8.2
+History,Hotel Rwanda ,8.1
+History,Spotlight ,8.1
+History,12 Years a Slave ,8.1
+History,In the Shadow of the Moon ,8.1
+History,Waltz with Bashir ,8
+History,The King's Speech ,8
+History,JFK ,8
+History,The Right Stuff ,7.9
+History,Glory ,7.9
+History,Straight Outta Compton ,7.9
+History,Glory ,7.9
+History,Letters from Iwo Jima ,7.9
+History,Hero ,7.9
+History,Tombstone ,7.8
+History,The Big Short ,7.8
+Documentary,Samsara ,8.5
+Documentary,The Other Dream Team ,8.4
+Documentary,Hoop Dreams ,8.3
+Documentary,No End in Sight ,8.3
+Documentary,The Act of Killing ,8.2
+Documentary,In the Shadow of the Moon ,8.1
+Documentary,Waltz with Bashir ,8
+Documentary,Bowling for Columbine ,8
+Documentary,Sicko ,8
+Documentary,Man on Wire ,7.8
+Documentary,Murderball ,7.8
+Documentary,Oceans ,7.8
+Documentary,The Trials of Darryl Hunt ,7.7
+Documentary,Religulous ,7.7
+Documentary,Who Killed the Electric Car? ,7.7
+Documentary,Taxi to the Dark Side ,7.7
+Documentary,Fuel ,7.6
+Documentary,March of the Penguins ,7.6
+Documentary,Beyond the Mat ,7.6
+Documentary,Antarctica: A Year on Ice ,7.6
+Short,Marilyn Hotchkiss' Ballroom Dancing and Charm School ,7.1

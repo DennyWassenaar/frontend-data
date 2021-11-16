@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <title>Movie Creator View</title>
+    
+<!--    JS sxripts for different usecases specified  -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>  <!-- D3 js -->
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>  <!-- D3 color js -->
+    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script> <!-- D3 interpolate js -->
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script> <!-- D3 color scale js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script> <!-- D3 legend js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> <!-- ajax popper js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> <!-- bootstrap js -->
+    
+</head>
+
+<!-- CSS specified for different cases -->
+<link rel="stylesheet" href="css/style.css"> <!-- gauntlet css-->
+<link rel="stylesheet" href="css/creator.css"> <!-- svg and other DOM elements css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <!-- bootstrap css -->
+
+<body>
+    
+<!--    Header with title and gauntlet  -->
+    <header style="background-color: black">
+        <div class="logo" >
+            <a href="#" target="_blank" style="padding-top: 20px;">
+            <span>M</span><span>o</span><span>v</span><span>i</span><span>e</span> Creator</a>
+            <img style = "padding-bottom: 20px;" id="gauntlet" src="img/1.png" align=center onclick="trick()">
+            <p style="color: white">(Go Back Using Gauntlet) >> </p>
+        </div>
+    </header>
+
+
+    <div id="container" style="margin-top: 20px;">
+
+       <!--    Scatterplot   -->
+        
+        <section id="b1" class="box">
+            <div id="scatterplot" style="float: left; ">
+                <h2 style="margin-left: 40px;">See the Gross Vs Budget Relation</h2>
+            </div>
+        </section><br>
+        
+        <!--  BOX showing text for scatterplot  -->
+        <div class="card bg-light text-dark" style="width:50%; float: right;">
+                <div class="card-body" style="width:100%"><p>Observe the trend between Gross and Budget, it shows a logistic relation and based on this you can decide your budget you want to invest in your movie production.</p></div>
+        </div><br>
+
+        <!--    Circle packed diagram for genres   -->
+        <div id="genre_trend" style="margin-left: 30px;">
+            <section id="b2" class="box">
+                <h2 style="margin-left: 20px;">Check The Genre Trend</h2>
+            </section>
+            
+            <!--  BOX showing text for circle pack  -->
+            <div class="card bg-light text-dark" style="width:90%; margin-left: 20px;">
+                <div class="card-body" style="width:90%"><p>This will help you to pick up the best genre for your movie creation. Just click on any genre bubble and observe the trend. See the trends of the genre across time for their average Gross, Budget, IMDB Score and Number of critic reviews to pick up the best one.</p></div>
+            </div><br>
+
+            <div id="circlepck" style="width:30%;">
+                <svg>
+                    <g></g>
+                </svg>
+            </div>
+            
+            <!--  Line plots showing the trends  -->
+            <div id="barplot" style=" width:66%;">
+
+                <svg style=" width:100%;" class = "blinking">
+                    <text x=270 y=82 fill="crimson", font-size="30px">Click on any genre bubble to see</text>
+                    <text x=190 y=116 fill="darkorange", font-weight="bold" font-size="30px">its trends of different measures across time</text>
+                </svg>
+
+            </div>
+        </div>
+        <div class="card bg-light text-dark" style="margin-top:400px; margin-left: 40px; margin-right: 100px;">
+            <div class="card-body" style="width:95%"><p>After selecting the genres you can see the trends across time for their Average IMDB score, Average Budget, Average Gross, and Average number of critical reviews.</p></div>
+        </div> <br>
+
+    </div>
+    
+<!-- FOOTER -->
+    <footer>
+        <p style="color: white;"><b style="color: white;">Created By:</b> Himanshu Sharma (ID: 29857082)</p>
+    </footer>
+
+</body>
+
+<!-- JS as specified below for different usecases -->
+<script src="js/creator.js"></script> <!-- this page's js -->
+<script src="js/jquery.js"></script> <!-- jquery -->
+<script src="js/Gauntlet.js"></script> <!-- gauntlet js -->
