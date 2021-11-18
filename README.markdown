@@ -1,4 +1,4 @@
-# Frontend Data
+# FRONTEND DATA
 
 
 [Wiki]() • [Data visualisation / eindproduct](https://dennywassenaar.nl/front-end-data/)
@@ -7,29 +7,16 @@
 
 
 
-## Learning goals
+## LEERDOELEN
 
 
 
-## Getting started
 
-### Setting up the repo
+### REPO
 
-To get started, you first need to clone the repo and install the dependencies:
 
-```bash
 git clone https://github.com/DennyWassenaar/frontend-data
-cd frontend-data
-yarn install || yarn
-```
 
-### Available commands
-
-```bash
-yarn dev   # Opens a dev server and watches src files.
-yarn build # Builds a bundle for the website.
-yarn lint  # Runs ESLint on files to check for consistent code.
-```
 
 ## Concept
 
