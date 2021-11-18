@@ -18,23 +18,4 @@
 git clone https://github.com/DennyWassenaar/frontend-data
 
 
-## Concept
-
-
-
-### Main Question
-
-
-### Research questions
-
-
-
-
-## D3 functionalities used
-
-
-
-## Functional programming principles applied
-
-
-## Tools used
+## GEBRUIKTE TOOLS
