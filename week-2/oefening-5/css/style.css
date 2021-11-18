@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +7,7 @@
 }
 
 #container {
-    
-    width: 1000px;
+    width: 1500px;
     margin: 0 auto;
     padding: 10px 2%;
 }
@@ -71,7 +69,6 @@ span:nth-of-type(8) {color: #2F80ED}
     line-height: 20px;
 }
 
-/* CSS for movie_viewer.html ------ */
 
 /* Circles of circle packed diagram */
 circle {
@@ -89,7 +86,7 @@ circle {
 
 /* word cloud div */
 #wordcloud {
-    width: 65%;
+    width: 100%;
     height: 50%;
     float: right;
 }
@@ -107,21 +104,6 @@ path {
     stroke: grey;
     stroke-width: 1;
     shape-rendering: crispEdges;
-}
-
-.sc_x line{
-    stroke:black;
-}
-
-.blinking{
-    animation:blinkingText 0.8s infinite;
-}
-@keyframes blinkingText{
-    0%{     color: #000;    }
-    49%{    color: transparent; }
-    50%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color: #000;    }
 }
 
 /*  footer  */

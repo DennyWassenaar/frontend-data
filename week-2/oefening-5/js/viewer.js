@@ -149,7 +149,7 @@
             svgWC = d3.select("#wordcloud").append("svg")
                .attr("width", 800)
                .attr("height", 400)
-             .append("g")
+               .append("g")
                .attr("transform",
                      "translate(" + 20 + "," + 20 + ")");
 
@@ -192,13 +192,20 @@
                                .style("font-size", function(d) { 
                                     return (d.size)+"px"; 
                                 })
+                                .style('opacity', 0)
                                .style("fill", function(d) { return d.color; })
                                .attr("text-anchor", "middle")
                                .style("font-family","Impact")
                                .attr("transform", function(d) {
                                  return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
                                })
-                               .text(function(d) { return d.text; });
+                               .text(function(d) { return d.text; })
+                               .transition()
+                                .delay(function(d, i) {
+                                return i * 15
+                                })
+                                .style("opacity", 1)
+                                ;
                     }
                });     
         }

@@ -791,7 +791,7 @@
         
         vSlices.attr("fill", function(d){
             color="";
-            if(d.x == 275){
+            if(d.x == 500){
                 color="lightgray";
             }
             else {
