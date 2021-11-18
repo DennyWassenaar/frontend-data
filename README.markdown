@@ -1,6 +1,8 @@
 # Frontend Data
 
+
 [Wiki]() • [Data visualisation / eindproduct](https://dennywassenaar.nl/front-end-data/)
+
 
 
 
