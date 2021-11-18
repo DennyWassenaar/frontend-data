@@ -1,6 +1,6 @@
 # Frontend Data
 
-[Wiki](https://github.com/theonejonahgold/frontend-data/wiki) • [Data visualisation / eindproduct](www.dennywassenaar.nl/front-end-data/)
+[Wiki]() • [Data visualisation / eindproduct](https://dennywassenaar.nl/front-end-data/)
 
 
 
@@ -31,17 +31,13 @@ yarn lint  # Runs ESLint on files to check for consistent code.
 
 ## Concept
 
-[Extended version](https://github.com/theonejonahgold/frontend-data/wiki/Concept-🦧)
+
 
 ### Main Question
 
-What is the relation between distance and availability of parking places to hot-spots in the city?
 
 ### Research questions
 
-- How close are parking areas to the hot-spot?
-- What are the average hours of the parking areas?
-- What are the capacities of the parking areas?
 
 
 
