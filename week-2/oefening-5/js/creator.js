@@ -814,7 +814,7 @@
             .attr("class", "caption")
             .attr("x", 0)
             .attr("y", -6)
-            .text("Movie Genres")
+            .text("Film Genres")
             .style("font-size","14px")
             .style("font-weight","bold");
 

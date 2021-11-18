@@ -1,4 +1,4 @@
-/* Boot css */
+
 
 * {
     margin: 0;
@@ -7,9 +7,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    max-width: 1280px;
-    width: 100%;
+#container {
+    
+    width: 1000px;
     margin: 0 auto;
     padding: 10px 2%;
 }
@@ -71,19 +71,65 @@ span:nth-of-type(8) {color: #2F80ED}
     line-height: 20px;
 }
 
-@media screen and (max-width: 640px) {
-    .box {
-        max-width: 70%;
-    }
-}
-@media screen and (max-width: 450px) {
-    .box {
-        max-width: 80%;
-    }
+/* CSS for movie_viewer.html ------ */
+
+/* Circles of circle packed diagram */
+circle {
+    stroke: white;
+    fill: "light-gray"; 
+    opacity: 0.3;
+    stroke-width: 1px;
 }
 
-@media screen and (max-width: 414px) {
-    .box {
-        max-width: 90%;
-    }
+/* Circlepack div */
+#circlepck {
+    width: 55%;
+    height: 60%;
+}
+
+/* word cloud div */
+#wordcloud {
+    width: 65%;
+    height: 50%;
+    float: right;
+}
+
+/* path for wordcloud */
+path { 
+/*    stroke: steelblue;*/
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.sc_x line{
+    stroke:black;
+}
+
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+/*  footer  */
+footer {
+  background-color: dimgray;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  position: sticky;
 }

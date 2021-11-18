@@ -2,7 +2,6 @@
 <meta charset="utf-8">
 <head>
     <title>Front-end data eind opdracht D3js</title>
-    <!-- JS for D3, scale-chromatic, color, legend, google api fonts, bootstrap -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-color.v1.min.js"></script>
     <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
@@ -15,50 +14,40 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
-<!-- CSS for w3.css (bootstrap plugin), this file, gauntlet -->
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="css/viewer.css">
-<link rel="stylesheet" href="css/style.css"> <!-- gauntlet css-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  
+<link rel="stylesheet" href="css/style.css">
 <body>
-    <!-- container div -->
+
     <div id="container">
         
-        <!-- genre trend  circle packed diagram -->
-        <div id="genre_trend" style="margin-left: 30px; margin-top: 20px;">
+        <div id="genre_trend">
 
             <section id="b1" class="box">
-            <h2 style="margin-left: 20px;">Film recommendaties per genre</h2>
+            <h2>Film recommendaties per genre</h2>
 
-            <div class="card bg-light text-dark" style="width:90%; margin-left: 20px;">
-                <div class="card-body" style="width:90%"><p>Kies een genre en krijg recommendaties gebaseerd op IMDB rating</p></div>
+            <div class="card bg-light text-dark">
+                <div class="card-body"><p>Kies een genre en krijg recommendaties gebaseerd op IMDB rating</p></div>
             </div>
             </section>
-            <br>
-            <!-- SVG for circlepack -->
-            <div id="circlepck" style="width:30%;">
+
+            <div id="circlepck">
                 <svg>
                     <g></g>
                 </svg>
             </div>
             
-            <!-- Movies word cloud  -->
-            <div id="wordcloud" style="width:46%">
-                    <svg width="670" height="400"><text x=130 y=200 font-size=25 fill="crimson", font-weight="bold"> Click on the Genre bubble their</text><text x=180 y=220 font-size=25 fill="darkorange" >to see genre preference</text></svg>
+            <div id="wordcloud" >
+                    <svg width="670" height="400"><text x=130 y=200 font-size=25 fill="crimson", font-weight="bold"> Klik op een cirkel voor suggesties </svg>
             </div>
         </div>
 
-        <div class="card bg-light text-dark" style="margin-top:400px; margin-left: 40px; margin-right: 100px;">
+        <div class="card bg-light text-dark"">
             <div class="card-body" style="width:95%"><p>After selecting the genre you can see the top 20 movies based on that genre. In the wordcloud you might not see much font size difference as their IMDB score does not vary much.</p></div>
         </div>
 
     </div>
 </body>
-
-<!-- JS for this file, gauntlet, wordcloud, jquery -->
 <script src="js/viewer.js"></script> 
 <script src="js/jquery.js"></script>
-<script src="js/Gauntlet.js"></script>
 <script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
 
