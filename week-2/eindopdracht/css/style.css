@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{ background:#fff; color:#fff;}
+body{}
 #container {
     width: 1500px;
     margin: 0 auto;
