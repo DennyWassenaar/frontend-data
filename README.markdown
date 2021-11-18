@@ -1,6 +1,6 @@
 # Frontend Data
 
-[Wiki](https://github.com/theonejonahgold/frontend-data/wiki) • [Data visualisation / eindproduct](www.dennywassenaar.nl/front-end-data/)
+[Wiki](https://github.com/theonejonahgold/frontend-data/wiki) • [Data visualisation / eindproduct](https://dennywassenaar.nl/front-end-data/)
 
 
 
