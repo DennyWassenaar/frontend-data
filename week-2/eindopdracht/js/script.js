@@ -12,7 +12,6 @@ var margin = { top: 10, right: 30, bottom: 50, left: 100 },
 // Cirkel element selecteren en daar een SVG met waardes aan toevoegen
 var circle_g = d3.select("#circlepck").select('svg').attr('width', vWidth - margin.left).attr('height', vHeight + 50).select('g');
 
-// prepare line graph axes ------------------------------------------------------------------
 const colorScheme = d3.scaleOrdinal(d3.schemeCategory20);
 
 // Een object definieren
@@ -35,13 +34,14 @@ function genCirclePackData(data) {
     return vData;
 }
 
+
 // De functie voor de cirkeldiagram visualisatie
 function drawViz(vData, space) {
 
     // Variabele aanmaken 
     var vLayout = d3.pack().size([vWidth, vHeight]);
 
-
+    // Hierarchie creeeren in de data.
     var vRoot = d3.hierarchy(vData).sum(function (d) {
         var value = 0
         for (key in d) {
@@ -55,6 +55,7 @@ function drawViz(vData, space) {
         return value;
     });
 
+    // variable declareren met de aftakkingen binnen de data.
     var vNodes = vRoot.descendants();
 
     //console.log(vNodes);
@@ -104,7 +105,7 @@ function drawViz(vData, space) {
 
     labels.sort();
 
-    // Visualisatie delen attributen meegeven 
+    // Visualisatie cirkels attributen meegeven 
     vSlices.attr('cx', function (d) { return d.x; })
         .attr('cy', function (d) { return d.y; })
         .attr('r', function (d) { return d.r; })
@@ -137,7 +138,7 @@ function drawViz(vData, space) {
 
 
 
-    // 
+    // Geen idee meer wat dit doet.
     var fill = d3.scaleOrdinal(d3.schemeCategory10);
 
     // De hoogte en breedte definieren van de Wordcloud visualisatie
@@ -173,7 +174,8 @@ function drawViz(vData, space) {
                     // De teksten genereren in de wordcloud waarbij de grote afhankelijk is van de IMDB score uit de data
                     return { text: d['movie_title'], size: parseFloat(d['imdb_score']), color: fill(d['movie_title']) };
                 }))
-                .padding(15)        
+                .padding(15)
+                // Woorden roteren voor een leip effect met zieke wiskunde
                 .rotate(function () { return ~~(Math.random() * 2) * 90; })
                 .fontSize(function (d) {
                     return (3 * d.size);
@@ -182,6 +184,7 @@ function drawViz(vData, space) {
 
             layout.start();
         
+            // De woorden aanmaken voor de wordcloud.
             function draw(words) {
                 //console.log(words);
                 svgWC
